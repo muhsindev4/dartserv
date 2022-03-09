@@ -13,7 +13,7 @@ void main(List<String> args) async {
   var parser = ArgParser()..addOption('port', abbr: 'p');
   var result = parser.parse(args);
 
-  // For Google Cloud Run, we respect the PORT environment variable
+  // For Google Cloud Rxun, we respect the PORT environment variable
   var portStr = result['port'] ?? portEnv ?? '8080';
   var port = int.tryParse(portStr);
 
