@@ -25,7 +25,7 @@ void main(List<String> args) async {
   }
 
   // // Static file server
-  // var handler = createStaticHandler('build', defaultDocument: 'index.html');
+  // var handler = creatdeStaticHandler('build', defaultDocument: 'index.html');
 
   // API server
   var handler = const shelf.Pipeline()
